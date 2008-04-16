@@ -1,0 +1,406 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<DIV id=ou0 style="position:absolute; left:78px; top:0px; width:911px; height:1341px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:919px; height:1349px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='new-brendan_files/u0.png',sizingMethod='scale');
+"><img style="width:919px; height:1349px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="new-brendan_files/u0.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u0container style="position:absolute; left:78px; top:0px; width:911px; height:1341px;; overflow:visible;">
+
+<DIV id=u1 style="position:absolute; left:2px; top:662px; width:906px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u1_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u0 src="Resources/transparent.gif" style="position:absolute; left:78px; top:0px; width:910px; height:1340px"  >
+
+<span style="position:absolute; left:78px; top:100px; width:910px; height:27px">
+<span id=ou2 style="position:absolute;left:0px;top:0px;width:910px;height:27px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='new-brendan_files/u2.png',sizingMethod='scale');
+"><img style="width:910px; height:27px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="new-brendan_files/u2.png" border="0" alt=""></span>
+</span>
+<IMG id=u2 src="Resources/transparent.gif" style="position:absolute; left:78px; top:100px; width:910px; height:27px"   >
+
+<span style="position:absolute; left:98px; top:10px; width:237px; height:80px">
+<span id=ou3 style="position:absolute;left:0px;top:0px;width:237px;height:80px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='new-brendan_files/u3.png',sizingMethod='scale');
+"><img style="width:237px; height:80px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="new-brendan_files/u3.png" border="0" alt=""></span>
+</span>
+<IMG id=u3 src="Resources/transparent.gif" style="position:absolute; left:98px; top:10px; width:237px; height:80px"   >
+
+<INPUT id=u4  type=text value="Search for campaigns" style="position:absolute; left:708px; top:40px; width:175px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u5  type=submit value="Search" style="position:absolute; left:888px; top:40px; width:70px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u6 style="position:absolute; left:808px; top:13px; width:150px; height:16px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u6_rtf><div style="text-align:right"><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>Login</u></span><span style=" font-family:'Arial'; color:#000000; font-size:13px;"> | </span><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>Signup</u></span><span style=" font-family:'Arial'; color:#000000; font-size:13px;"> | </span><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>Help</u></span></div></DIV></DIV>
+<DIV id=ou7 style="position:absolute; left:813px; top:100px; width:176px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:184px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='new-brendan_files/u7.png',sizingMethod='scale');
+"><img style="width:184px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="new-brendan_files/u7.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u7container style="position:absolute; left:813px; top:100px; width:176px; height:26px;; overflow:visible;">
+
+<DIV id=u8 style="position:absolute; left:2px; top:4.5px; width:171px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u8_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u7 src="Resources/transparent.gif" style="position:absolute; left:813px; top:100px; width:175px; height:25px"  >
+
+<DIV id=u9 style="position:absolute; left:98px; top:104px; width:880px; height:19px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u9_rtf><span style=" font-family:'Arial'; color:#FFFFFF; font-size:16px;"><b>Me&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Popular&nbsp; &nbsp; &nbsp;&nbsp; Recommended&nbsp; &nbsp; Browse by Category&nbsp; &nbsp; Featured&nbsp;&nbsp; Local&nbsp;&nbsp; Groups&nbsp;&nbsp; People&nbsp; &nbsp; Start a Campaign</b></span></DIV></DIV>
+<span style="position:absolute; left:732px; top:160px; width:5px; height:1153px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='new-brendan_files/u10.png',sizingMethod='scale');
+"><img style="width:5px; height:1153px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="new-brendan_files/u10.png" border="0" alt=""></span>
+
+<IMG id=u10 src="Resources/transparent.gif" style="position:absolute; left:731.5px; top:160px; width:2px; height:1150px">
+
+<DIV id=u11 style="position:absolute; left:165px; top:146px; width:270px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u11_rtf><span style=" font-family:'Arial'; color:#000000; font-size:21px;">Campaign Title</span></DIV></DIV>
+<INPUT id=u12  type=text value="" style="position:absolute; left:165px; top:172px; width:790px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 19px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u13 style="position:absolute; left:350px; top:146px; width:190px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u13_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>see popular campaign templates</u></span></DIV></DIV>
+<DIV id=u14 style="; position:absolute; left:90px; top:217px; width:441px; height:751px;; overflow:hidden">
+<DIV id=pd0u14 style="position:absolute; left:0px; top:0px; width:1px; height:1px; ;">
+<DIV id=u15 style="position:absolute; left:20px; top:72px; width:400px; height:19px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u15_rtf><span style=" font-family:'Arial'; color:#000000; font-size:16px;"><u><b>Jump right in</b></u><b>, or start with a popular template:</b></span></DIV></DIV>
+<DIV id=u16 style="position:absolute; left:30px; top:130px; width:400px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u16_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>Ultimatum </u></span><br><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Say &quot;do this or else! to someone you want to change&quot;</span></DIV></DIV>
+<DIV id=u17 style="position:absolute; left:30px; top:178px; width:400px; height:48px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u17_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><u>Offer a carrot</u><br>Encourage change by getting people to promise to do something</span></DIV></DIV>
+<DIV id=u18 style="position:absolute; left:30px; top:230px; width:400px; height:48px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u18_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><u>Group Purchase</u><br>Band together with a bunch of people to buy something</span></DIV></DIV>
+<DIV id=u19 style="position:absolute; left:30px; top:280px; width:400px; height:48px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u19_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><u>Fundraiser</u><br>Raise money for a good cause</span></DIV></DIV>
+<DIV id=u20 style="position:absolute; left:30px; top:322px; width:400px; height:48px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u20_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><u>Event</u><br>Plan an event that will only happen if certain conditions are met</span></DIV></DIV>
+<DIV id=u21 style="position:absolute; left:20px; top:0px; width:410px; height:29px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u21_rtf><span style=" font-family:'Arial'; color:#000000; font-size:24px;"><b>Setup your Member Agreement</b></span></DIV></DIV>
+</DIV>
+<DIV id=pd1u14 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou22 style="position:absolute; left:0px; top:670px; width:441px; height:81px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:449px; height:89px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='new-brendan_files/u22.png',sizingMethod='scale');
+"><img style="width:449px; height:89px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="new-brendan_files/u22.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u22container style="position:absolute; left:0px; top:670px; width:441px; height:81px;; overflow:visible;">
+
+<DIV id=u23 style="position:absolute; left:2px; top:32px; width:436px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u23_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u22 src="Resources/transparent.gif" style="position:absolute; left:0px; top:670px; width:440px; height:80px"  >
+
+<DIV id=ou24 style="position:absolute; left:0px; top:580px; width:441px; height:81px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:449px; height:89px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='new-brendan_files/u22.png',sizingMethod='scale');
+"><img style="width:449px; height:89px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="new-brendan_files/u22.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u24container style="position:absolute; left:0px; top:580px; width:441px; height:81px;; overflow:visible;">
+
+<DIV id=u25 style="position:absolute; left:2px; top:32px; width:436px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u25_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u24 src="Resources/transparent.gif" style="position:absolute; left:0px; top:580px; width:440px; height:80px"  >
+
+<DIV id=ou26 style="position:absolute; left:0px; top:490px; width:441px; height:81px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:449px; height:89px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='new-brendan_files/u22.png',sizingMethod='scale');
+"><img style="width:449px; height:89px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="new-brendan_files/u22.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u26container style="position:absolute; left:0px; top:490px; width:441px; height:81px;; overflow:visible;">
+
+<DIV id=u27 style="position:absolute; left:2px; top:32px; width:436px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u27_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u26 src="Resources/transparent.gif" style="position:absolute; left:0px; top:490px; width:440px; height:80px"  >
+
+<DIV id=ou28 style="position:absolute; left:0px; top:156px; width:441px; height:325px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:449px; height:333px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='new-brendan_files/u28.png',sizingMethod='scale');
+"><img style="width:449px; height:333px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="new-brendan_files/u28.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u28container style="position:absolute; left:0px; top:156px; width:441px; height:325px;; overflow:visible;">
+
+<DIV id=u29 style="position:absolute; left:2px; top:154px; width:436px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u29_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u28 src="Resources/transparent.gif" style="position:absolute; left:0px; top:156px; width:440px; height:324px"  >
+
+<DIV id=ou30 style="position:absolute; left:0px; top:0px; width:441px; height:151px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:449px; height:159px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='new-brendan_files/u30.png',sizingMethod='scale');
+"><img style="width:449px; height:159px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="new-brendan_files/u30.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u30container style="position:absolute; left:0px; top:0px; width:441px; height:151px;; overflow:visible;">
+
+<DIV id=u31 style="position:absolute; left:2px; top:67px; width:436px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u31_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u30 src="Resources/transparent.gif" style="position:absolute; left:0px; top:0px; width:440px; height:150px"  >
+
+<DIV id=u32container style="position:absolute; left:10px; top:10px; width:220px; height:29px; ; ; text-align: left " >
+<DIV id=u33 style="position:absolute; left:16px; top:0px; width:202px; height:29px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u33_rtf><span style=" font-family:'Arial'; color:#000000; font-size:24px;"><b>Organize People</b></span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:10px; top:10px; width:220px; height:29px; ; ; text-align: left " ><INPUT id=u32 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u34container style="position:absolute; left:10px; top:160px; width:220px; height:29px; ; ; text-align: left " >
+<DIV id=u35 style="position:absolute; left:16px; top:0px; width:202px; height:29px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u35_rtf><span style=" font-family:'Arial'; color:#000000; font-size:24px;"><b>Raise Money</b></span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:10px; top:160px; width:220px; height:29px; ; ; text-align: left " ><INPUT id=u34 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u36container style="position:absolute; left:10px; top:494px; width:370px; height:29px; ; ; text-align: left " >
+<DIV id=u37 style="position:absolute; left:16px; top:0px; width:352px; height:29px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u37_rtf><span style=" font-family:'Arial'; color:#000000; font-size:24px;"><b>The campaign will tip if...</b></span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:10px; top:494px; width:370px; height:29px; ; ; text-align: left " ><INPUT id=u36 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u38container style="position:absolute; left:10px; top:583px; width:270px; height:29px; ; ; text-align: left " >
+<DIV id=u39 style="position:absolute; left:16px; top:0px; width:252px; height:29px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u39_rtf><span style=" font-family:'Arial'; color:#000000; font-size:24px;"><b>We'll call it off if...</b></span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:10px; top:583px; width:270px; height:29px; ; ; text-align: left " ><INPUT id=u38 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u40container style="position:absolute; left:10px; top:671px; width:350px; height:29px; ; ; text-align: left " >
+<DIV id=u41 style="position:absolute; left:16px; top:0px; width:332px; height:29px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u41_rtf><span style=" font-family:'Arial'; color:#000000; font-size:24px;"><b>This must happen by...</b></span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:10px; top:671px; width:350px; height:29px; ; ; text-align: left " ><INPUT id=u40 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u42 style="visibility:hidden; position:absolute; left:20px; top:40px; width:381px; height:111px;; overflow:hidden">
+<DIV id=pd0u42 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=u43 style="position:absolute; left:11px; top:10px; width:240px; height:18px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u43_rtf><span style=" font-family:'Arial'; color:#000000; font-size:16px;">We, the undersigned, promise to:</span></DIV></DIV>
+<INPUT id=u44  type=text value="" style="position:absolute; left:10px; top:31px; width:400px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u45container style="position:absolute; left:41px; top:64px; width:40px; height:16px; ; ; text-align: left " >
+<DIV id=u46 style="position:absolute; left:16px; top:0px; width:22px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u46_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">if</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:41px; top:64px; width:40px; height:16px; ; ; text-align: left " ><INPUT id=u45 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<SELECT id=u47  style="position:absolute; left:71px; top:61px; width:75px; height:22px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+<OPTION selected value="exactly">exactly</OPTION>
+<OPTION  value="at least">at least</OPTION>
+<OPTION  value="between">between</OPTION>
+</SELECT>
+
+<INPUT id=u48  type=text value="" style="position:absolute; left:156px; top:60px; width:75px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u49 style="position:absolute; left:241px; top:63px; width:70px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u49_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">people join</span></DIV></DIV>
+<DIV id=u50container style="position:absolute; left:41px; top:90px; width:250px; height:16px; ; ; text-align: left " >
+<DIV id=u51 style="position:absolute; left:16px; top:0px; width:232px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u51_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Everyone must agree t o take action</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:41px; top:90px; width:250px; height:16px; ; ; text-align: left " ><INPUT id=u50 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+</DIV>
+</DIV>
+<DIV id=u52 style="visibility:hidden; position:absolute; left:20px; top:189px; width:421px; height:291px;; overflow:hidden">
+<DIV id=pd0u52 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=u53 style="position:absolute; left:11px; top:10px; width:240px; height:18px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u53_rtf><span style=" font-family:'Arial'; color:#000000; font-size:16px;">Funds to be used for this purpose:</span></DIV></DIV>
+<INPUT id=u54  type=text value="" style="position:absolute; left:10px; top:31px; width:400px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u55container style="position:absolute; left:30px; top:64px; width:170px; height:16px; ; ; text-align: left " >
+<DIV id=u56 style="position:absolute; left:16px; top:0px; width:152px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u56_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">We need to reach $</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:30px; top:64px; width:170px; height:16px; ; ; text-align: left " ><INPUT id=u55 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<INPUT id=u57  type=text value="" style="position:absolute; left:165px; top:60px; width:85px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u58container style="position:absolute; left:30px; top:94px; width:170px; height:16px; ; ; text-align: left " >
+<DIV id=u59 style="position:absolute; left:16px; top:0px; width:152px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u59_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Contributions In units of $</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:30px; top:94px; width:170px; height:16px; ; ; text-align: left " ><INPUT id=u58 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<INPUT id=u60  type=text value="ticket" style="position:absolute; left:265px; top:90px; width:80px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u61  type=text value="" style="position:absolute; left:196px; top:90px; width:34px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u62 style="position:absolute; left:240px; top:95px; width:20px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u62_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">per</span></DIV></DIV>
+<DIV id=u63container style="position:absolute; left:30px; top:124px; width:230px; height:16px; ; ; text-align: left " >
+<DIV id=u64 style="position:absolute; left:16px; top:0px; width:212px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u64_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Minimum individual contribution is $</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:30px; top:124px; width:230px; height:16px; ; ; text-align: left " ><INPUT id=u63 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u65container style="position:absolute; left:29px; top:159px; width:230px; height:16px; ; ; text-align: left " >
+<DIV id=u66 style="position:absolute; left:16px; top:0px; width:212px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u66_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Maximum individual contribution is $</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:29px; top:159px; width:230px; height:16px; ; ; text-align: left " ><INPUT id=u65 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<INPUT id=u67  type=text value="" style="position:absolute; left:255px; top:120px; width:45px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u68  type=text value="" style="position:absolute; left:255px; top:155px; width:45px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u69 style="position:absolute; left:30px; top:194px; width:170px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u69_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">The check will be mailed to:</span></DIV></DIV>
+<DIV id=u70 style="position:absolute; left:20px; top:220px; width:170px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u70_rtf><div style="text-align:right"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Address:</span></div></DIV></DIV>
+<INPUT id=u71  type=text value="Name" style="position:absolute; left:195px; top:190px; width:175px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u72  type=text value="Mailing address" style="position:absolute; left:195px; top:220px; width:175px; height:60px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+</DIV>
+</DIV>
+<DIV id=u73 style="visibility:hidden; position:absolute; left:20px; top:521px; width:411px; height:51px;; overflow:hidden">
+<DIV id=pd0u73 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<INPUT id=u74  type=text value="" style="position:absolute; left:10px; top:10px; width:390px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u75 style="position:absolute; left:10px; top:35px; width:370px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u75_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><i>something happens, someone agrees to do something, etc.</i></span></DIV></DIV>
+</DIV>
+</DIV>
+<DIV id=u76 style="visibility:hidden; position:absolute; left:20px; top:611px; width:411px; height:51px;; overflow:hidden">
+<DIV id=pd0u76 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<INPUT id=u77  type=text value="" style="position:absolute; left:10px; top:10px; width:390px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u78 style="position:absolute; left:10px; top:35px; width:370px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u78_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><i>something happens, someone agrees to do something, etc.</i></span></DIV></DIV>
+</DIV>
+</DIV>
+</DIV>
+</DIV>
+<INPUT id=u79  type=submit value="Submit" style="position:absolute; left:550px; top:750px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u80 style="position:absolute; left:540px; top:220px; width:427px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u80_rtf><span style=" font-family:'Arial'; color:#000000; font-size:21px;">The Pitch</span></DIV></DIV>
+<DIV id=u81 style="position:absolute; left:540px; top:243px; width:440px; height:14px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u81_rtf><span style=" font-family:'Arial'; color:#000000; font-size:11px;"><i>Briefly describe your agenda and why people should join you.&nbsp; You can add details later.</i></span></DIV></DIV>
+<TEXTAREA id=u82  style="position:absolute; left:540px; top:260px; width:440px; height:130px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"  ></TEXTAREA>
+
+<DIV id=u83 style="position:absolute; left:540px; top:470px; width:85px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u83_rtf><span style=" font-family:'Arial'; color:#000000; font-size:21px;">Privacy</span></DIV></DIV>
+<DIV id=u84container style="position:absolute; left:550px; top:494px; width:100px; height:16px; ; ; text-align: left " >
+<DIV id=u85 style="position:absolute; left:16px; top:0px; width:82px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u85_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Public</b></span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:550px; top:494px; width:100px; height:16px; ; ; text-align: left " ><INPUT id=u84 name="privacy" style="position:absolute; left:-3px; top:-2px;" type=radio value=radio checked ></DIV>
+<DIV id=u86 style="position:absolute; left:566px; top:510px; width:304px; height:14px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u86_rtf><span style=" font-family:'Arial'; color:#000000; font-size:11px;"><i>anyone can join your campaign</i></span></DIV></DIV>
+<DIV id=u87 style="position:absolute; left:566px; top:550px; width:304px; height:14px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u87_rtf><span style=" font-family:'Arial'; color:#000000; font-size:11px;"><i>Viewable: Anyone&nbsp; Joinable: <u>Select...</u></i></span></DIV></DIV>
+<DIV id=u88 style="position:absolute; left:566px; top:640px; width:304px; height:14px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u88_rtf><span style=" font-family:'Arial'; color:#000000; font-size:11px;"><i>Your campaign is hidden from all except those who may join</i></span></DIV></DIV>
+<span style="position:absolute; left:90px; top:140px; width:67px; height:60px">
+<span id=ou89 style="position:absolute;left:0px;top:0px;width:67px;height:60px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='new-brendan_files/u89.png',sizingMethod='scale');
+"><img style="width:67px; height:60px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="new-brendan_files/u89.png" border="0" alt=""></span>
+</span>
+<IMG id=u89 src="Resources/transparent.gif" style="position:absolute; left:90px; top:140px; width:67px; height:60px"   >
+
+<DIV id=u90 style="position:absolute; left:94px; top:144px; width:59px; height:51px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u90_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:15px;"><b><i>Click to upload logo</i></b></span></div></DIV></DIV>
+<DIV id=u91 style="position:absolute; left:780px; top:390px; width:200px; height:12px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u91_rtf><div style="text-align:right"><span style=" font-family:'Arial'; color:#000000; font-size:9px;"><i>1000 characters remaining</i></span></div></DIV></DIV>
+<DIV id=u92 style="; position:absolute; left:545px; top:534px; width:341px; height:201px;; overflow:hidden">
+<DIV id=pd0u92 style="position:absolute; left:0px; top:0px; width:1px; height:1px; ;">
+</DIV>
+<DIV id=pd1u92 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou93 style="position:absolute; left:3px; top:36px; width:331px; height:41px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:339px; height:49px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='new-brendan_files/u93.png',sizingMethod='scale');
+"><img style="width:339px; height:49px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="new-brendan_files/u93.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u93container style="position:absolute; left:3px; top:36px; width:331px; height:41px;; overflow:visible;">
+
+<DIV id=u94 style="position:absolute; left:2px; top:12px; width:326px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u94_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u93 src="Resources/transparent.gif" style="position:absolute; left:3px; top:36px; width:330px; height:40px"  >
+
+<DIV id=u95 style="position:absolute; left:-7px; top:48px; width:150px; height:16px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u95_rtf><div style="text-align:right"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">members must:</span></div></DIV></DIV>
+<SELECT id=u96  style="position:absolute; left:149px; top:46px; width:175px; height:22px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+<OPTION selected value="receive an invitation">receive an invitation</OPTION>
+<OPTION  value="be in the group...">be in the group...</OPTION>
+<OPTION  value="have an email address matching...">have an email address matching...</OPTION>
+</SELECT>
+
+</DIV>
+<DIV id=pd2u92 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou97 style="position:absolute; left:2px; top:131px; width:331px; height:41px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:339px; height:49px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='new-brendan_files/u93.png',sizingMethod='scale');
+"><img style="width:339px; height:49px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="new-brendan_files/u93.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u97container style="position:absolute; left:2px; top:131px; width:331px; height:41px;; overflow:visible;">
+
+<DIV id=u98 style="position:absolute; left:2px; top:12px; width:326px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u98_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u97 src="Resources/transparent.gif" style="position:absolute; left:2px; top:131px; width:330px; height:40px"  >
+
+<DIV id=u99 style="position:absolute; left:-8px; top:145px; width:150px; height:16px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u99_rtf><div style="text-align:right"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">members/viewers must:</span></div></DIV></DIV>
+<SELECT id=u100  style="position:absolute; left:148px; top:143px; width:175px; height:22px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+<OPTION selected value="receive an invitation">receive an invitation</OPTION>
+<OPTION  value="be in the group...">be in the group...</OPTION>
+<OPTION  value="have an email address matching...">have an email address matching...</OPTION>
+</SELECT>
+
+</DIV>
+</DIV>
+<DIV id=u101container style="position:absolute; left:550px; top:534px; width:100px; height:16px; ; ; text-align: left " >
+<DIV id=u102 style="position:absolute; left:16px; top:0px; width:82px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u102_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Restricted...</b></span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:550px; top:534px; width:100px; height:16px; ; ; text-align: left " ><INPUT id=u101 name="privacy" style="position:absolute; left:-3px; top:-2px;" type=radio value=radio  ></DIV>
+<DIV id=u103container style="position:absolute; left:550px; top:624px; width:100px; height:16px; ; ; text-align: left " >
+<DIV id=u104 style="position:absolute; left:16px; top:0px; width:82px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u104_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Secret...</b></span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:550px; top:624px; width:100px; height:16px; ; ; text-align: left " ><INPUT id=u103 name="privacy" style="position:absolute; left:-3px; top:-2px;" type=radio value=radio  ></DIV>
+<INPUT id=u105  type=text value="comma separated" style="position:absolute; left:540px; top:427px; width:440px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u106 style="position:absolute; left:543px; top:410px; width:247px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u106_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Assign some tags/keywords</b></span></DIV></DIV><SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="new-brendan_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>

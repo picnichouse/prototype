@@ -1,0 +1,105 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><link href="Resources/axurerpprototype.css" type="text/css" rel="stylesheet"></HEAD>
+<BODY>
+<A href=# onclick='parent.CloseSitemap()' style='font-size:8pt'>Close Frames</A><br><br>
+
+<SCRIPT LANGUAGE="JavaScript">
+image1 = new Image();
+image1.src = 'Resources/plus.gif';
+
+function CloseSitemap()
+{
+	parent.URL = parent.mainFrame.URL
+}
+
+function ToggleDiv(node, id)
+{
+	sibling = document.getElementById(id);
+	if (sibling.style.display == 'none')
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/minus.gif";
+			}
+		}
+
+		sibling.style.display = '';
+	}
+	else
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/plus.gif";
+			}
+		}
+		sibling.style.display = 'none';
+	}
+}
+
+var currentPage = null;
+
+function highlight(id)
+{
+	if (currentPage != null)
+	{
+		currentPage.style.backgroundColor = '#EEEEFF';
+		currentPage.style.paddingLeft = '0px';
+		currentPage.style.paddingRight = '0px';
+		currentPage.style.border = '0px solid #666666';
+	}
+	
+	currentPage = document.getElementById(id);
+    if (currentPage) {
+	    currentPage.style.backgroundColor = '#DDDDDD';
+	    currentPage.style.paddingLeft = '3px';
+	    currentPage.style.paddingRight = '3px';
+	    currentPage.style.border = '1px solid #666666';
+    }
+}
+
+</SCRIPT>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A href="new-brendan.html" target="mainFrame"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pd758f26820af4aafb0ffb4981948f8bf">new-brendan</SPAN></A><DIV id="tdd758f26820af4aafb0ffb4981948f8bf">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A href="new.html" target="mainFrame"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pb70d28c218da43c0a5d428502de988af">new</SPAN></A><DIV id="tdb70d28c218da43c0a5d428502de988af">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A href="show-dome.html" target="mainFrame"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pdf45a8bab2d84ce6bd41451b2e38738b">show-dome</SPAN></A><DIV id="tddf45a8bab2d84ce6bd41451b2e38738b">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A href="show-wiffleball.html" target="mainFrame"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p3abc7a35a1eb4c408695cacb5134dee6">show-wiffleball</SPAN></A><DIV id="td3abc7a35a1eb4c408695cacb5134dee6">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A href="Canary_Join_Forms.html" target="mainFrame"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p45a3976a70aa4b80bd12184cd64936d9">Canary Join Forms</SPAN></A><DIV id="td45a3976a70aa4b80bd12184cd64936d9">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A href="Local_Campaigns.html" target="mainFrame"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pafd092df42bf41d79731d3cd4c7e4682">Local Campaigns</SPAN></A><DIV id="tdafd092df42bf41d79731d3cd4c7e4682">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE></BODY></HTML>

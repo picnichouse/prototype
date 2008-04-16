@@ -1,0 +1,767 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<DIV id=ou0 style="position:absolute; left:140px; top:0px; width:911px; height:1341px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:919px; height:1349px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u0.png',sizingMethod='scale');
+"><img style="width:919px; height:1349px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u0.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u0container style="position:absolute; left:140px; top:0px; width:911px; height:1341px;; overflow:visible;">
+
+<DIV id=u1 style="position:absolute; left:2px; top:662px; width:906px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u1_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u0 src="Resources/transparent.gif" style="position:absolute; left:140px; top:0px; width:910px; height:1340px"  >
+
+<span style="position:absolute; left:140px; top:100px; width:910px; height:27px">
+<span id=ou2 style="position:absolute;left:0px;top:0px;width:910px;height:27px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u2.png',sizingMethod='scale');
+"><img style="width:910px; height:27px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u2.png" border="0" alt=""></span>
+</span>
+<IMG id=u2 src="Resources/transparent.gif" style="position:absolute; left:140px; top:100px; width:910px; height:27px"   >
+
+<span style="position:absolute; left:160px; top:10px; width:237px; height:80px">
+<span id=ou3 style="position:absolute;left:0px;top:0px;width:237px;height:80px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u3.png',sizingMethod='scale');
+"><img style="width:237px; height:80px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u3.png" border="0" alt=""></span>
+</span>
+<IMG id=u3 src="Resources/transparent.gif" style="position:absolute; left:160px; top:10px; width:237px; height:80px"   >
+
+<INPUT id=u4  type=text value="Search for campaigns" style="position:absolute; left:770px; top:40px; width:175px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u5  type=submit value="Search" style="position:absolute; left:950px; top:40px; width:70px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u6 style="position:absolute; left:870px; top:13px; width:150px; height:16px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u6_rtf><div style="text-align:right"><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>Login</u></span><span style=" font-family:'Arial'; color:#000000; font-size:13px;"> | </span><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>Signup</u></span><span style=" font-family:'Arial'; color:#000000; font-size:13px;"> | </span><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>Help</u></span></div></DIV></DIV>
+<DIV id=ou7 style="position:absolute; left:875px; top:100px; width:176px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:184px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u7.png',sizingMethod='scale');
+"><img style="width:184px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u7.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u7container style="position:absolute; left:875px; top:100px; width:176px; height:26px;; overflow:visible;">
+
+<DIV id=u8 style="position:absolute; left:2px; top:4.5px; width:171px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u8_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u7 src="Resources/transparent.gif" style="position:absolute; left:875px; top:100px; width:175px; height:25px"  >
+
+<DIV id=u9 style="position:absolute; left:160px; top:104px; width:880px; height:19px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u9_rtf><span style=" font-family:'Arial'; color:#FFFFFF; font-size:16px;"><b>Me&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Popular&nbsp; &nbsp; &nbsp;&nbsp; Recommended&nbsp; &nbsp; Browse by Category&nbsp; &nbsp; Featured&nbsp;&nbsp; Local&nbsp;&nbsp; Groups&nbsp;&nbsp; People&nbsp; &nbsp; Start a Campaign</b></span></DIV></DIV>
+<span style="position:absolute; left:794px; top:160px; width:5px; height:1153px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u10.png',sizingMethod='scale');
+"><img style="width:5px; height:1153px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u10.png" border="0" alt=""></span>
+
+<IMG id=u10 src="Resources/transparent.gif" style="position:absolute; left:793.5px; top:160px; width:2px; height:1150px">
+
+<span style="position:absolute; left:180px; top:815px; width:216px; height:190px">
+<IMG id=ou11 src="show-wiffleball_files/u11.jpg" style="position:absolute;left:0px;top:0px;width:216px;height:190px">
+</span>
+<IMG id=u11 src="Resources/transparent.gif" style="position:absolute; left:180px; top:815px; width:216px; height:190px"   >
+
+<DIV id=u12 style="position:absolute; left:180px; top:785px; width:150px; height:29px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u12_rtf><span style=" font-family:'Arial'; color:#000000; font-size:24px;"><b>Posted Items</b></span></DIV></DIV>
+<span style="position:absolute; left:406px; top:815px; width:134px; height:190px">
+<span id=ou13 style="position:absolute;left:0px;top:0px;width:134px;height:190px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u13.png',sizingMethod='scale');
+"><img style="width:134px; height:190px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u13.png" border="0" alt=""></span>
+</span>
+<IMG id=u13 src="Resources/transparent.gif" style="position:absolute; left:406px; top:815px; width:134px; height:190px"   >
+
+<DIV id=u14 style="position:absolute; left:180px; top:1009px; width:210px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u14_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Here's a video of a song I wrote about the dome! <u>WATCH</u></span></DIV></DIV>
+<DIV id=u15 style="position:absolute; left:401px; top:1013px; width:139px; height:48px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u15_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">The official flier for the event.&nbsp; Post this everywhere!&nbsp; <u>VIEW</u></span></DIV></DIV>
+<DIV id=u16 style="position:absolute; left:270px; top:142px; width:560px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u16_rtf><span style=" font-family:'Arial'; color:#000000; font-size:21px;"><b>That stupid law doesn't say anything about Wiffleball...</b></span></DIV></DIV>
+<DIV id=u17 style="position:absolute; left:520px; top:166px; width:180px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u17_rtf><span style=" font-family:'Arial'; color:#000000; font-size:21px;"><i>Will attend: 7</i></span></DIV></DIV>
+<DIV id=u18 style="position:absolute; left:820px; top:160px; width:200px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u18_rtf><span style=" font-family:'Arial'; color:#000000; font-size:21px;"><b>Latest News</b></span></DIV></DIV>
+<DIV id=u19 style="position:absolute; left:810px; top:204px; width:240px; height:80px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u19_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Hey, if you guys didn't see it, we were on NPR a couple of days ago!&nbsp; pretty cool.&nbsp; It's nice to see that the dome is finally getting the respect that it deserves.&nbsp; I hope that someday .... <u>read more</u></span></DIV></DIV>
+<DIV id=u20 style="position:absolute; left:810px; top:184px; width:190px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u20_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><i>Posted by <u>Andrew </u>2 days ago</i></span></DIV></DIV>
+<DIV id=u21 style="position:absolute; left:280px; top:190px; width:180px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u21_rtf><span style=" font-family:'Arial'; color:#000000; font-size:21px;"><u><i>23 comments</i></u></span></DIV></DIV>
+<DIV id=u22 style="position:absolute; left:820px; top:294px; width:190px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u22_rtf><span style=" font-family:'Arial'; color:#000000; font-size:21px;"><b>Latest Discussion</b></span></DIV></DIV>
+<DIV id=u23 style="position:absolute; left:810px; top:352px; width:240px; height:48px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u23_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">This is a good thing for America.&nbsp; It's about time we start moving in this direction.</span></DIV></DIV>
+<DIV id=u24 style="position:absolute; left:810px; top:318px; width:230px; height:30px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u24_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><i>Posted by <u>Dan</u> in the thread <u>Chicago Winter Dome</u> 2 weeks ago</i></span></DIV></DIV>
+<DIV id=u25 style="position:absolute; left:990px; top:164px; width:60px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u25_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><u>READ ALL</u></span></div></DIV></DIV>
+<DIV id=u26 style="position:absolute; left:992px; top:299px; width:60px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u26_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><u>MORE</u></span></div></DIV></DIV>
+<DIV id=u27 style="position:absolute; left:810px; top:436px; width:240px; height:48px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u27_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">This is a good thing for America.&nbsp; It's about time we start moving in this direction.</span></DIV></DIV>
+<DIV id=u28 style="position:absolute; left:810px; top:402px; width:230px; height:30px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u28_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><i>Posted by <u>Dan</u> in the thread <u>Is this a good idea for the site?</u> 2 weeks ago</i></span></DIV></DIV>
+<DIV id=u29 style="position:absolute; left:820px; top:590px; width:170px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u29_rtf><span style=" font-family:'Arial'; color:#000000; font-size:21px;"><b>Latest Joiners</b></span></DIV></DIV>
+<DIV id=u30 style="position:absolute; left:980px; top:594px; width:60px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u30_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><u>SEE ALL</u></span></div></DIV></DIV>
+<span style="position:absolute; left:810px; top:624px; width:60px; height:60px">
+<span id=ou31 style="position:absolute;left:0px;top:0px;width:60px;height:60px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u31.png',sizingMethod='scale');
+"><img style="width:60px; height:60px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u31.png" border="0" alt=""></span>
+</span>
+<IMG id=u31 src="Resources/transparent.gif" style="position:absolute; left:810px; top:624px; width:60px; height:60px"   >
+
+<DIV id=u32 style="position:absolute; left:810px; top:684px; width:60px; height:30px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u32_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><u>Andrew Mason</u></span></div></DIV></DIV>
+<span style="position:absolute; left:890px; top:624px; width:60px; height:60px">
+<span id=ou33 style="position:absolute;left:0px;top:0px;width:60px;height:60px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u33.png',sizingMethod='scale');
+"><img style="width:60px; height:60px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u33.png" border="0" alt=""></span>
+</span>
+<IMG id=u33 src="Resources/transparent.gif" style="position:absolute; left:890px; top:624px; width:60px; height:60px"   >
+
+<DIV id=u34 style="position:absolute; left:890px; top:684px; width:60px; height:30px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u34_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><u>Andrew Mason</u></span></div></DIV></DIV>
+<span style="position:absolute; left:970px; top:624px; width:60px; height:60px">
+<span id=ou35 style="position:absolute;left:0px;top:0px;width:60px;height:60px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u35.png',sizingMethod='scale');
+"><img style="width:60px; height:60px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u35.png" border="0" alt=""></span>
+</span>
+<IMG id=u35 src="Resources/transparent.gif" style="position:absolute; left:970px; top:624px; width:60px; height:60px"   >
+
+<DIV id=u36 style="position:absolute; left:970px; top:684px; width:60px; height:30px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u36_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><u>Andrew Mason</u></span></div></DIV></DIV>
+<span style="position:absolute; left:810px; top:714px; width:60px; height:60px">
+<span id=ou37 style="position:absolute;left:0px;top:0px;width:60px;height:60px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u37.png',sizingMethod='scale');
+"><img style="width:60px; height:60px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u37.png" border="0" alt=""></span>
+</span>
+<IMG id=u37 src="Resources/transparent.gif" style="position:absolute; left:810px; top:714px; width:60px; height:60px"   >
+
+<DIV id=u38 style="position:absolute; left:810px; top:774px; width:60px; height:30px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u38_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><u>Andrew Mason</u></span></div></DIV></DIV>
+<span style="position:absolute; left:890px; top:714px; width:60px; height:60px">
+<span id=ou39 style="position:absolute;left:0px;top:0px;width:60px;height:60px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u39.png',sizingMethod='scale');
+"><img style="width:60px; height:60px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u39.png" border="0" alt=""></span>
+</span>
+<IMG id=u39 src="Resources/transparent.gif" style="position:absolute; left:890px; top:714px; width:60px; height:60px"   >
+
+<DIV id=u40 style="position:absolute; left:890px; top:774px; width:60px; height:30px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u40_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><u>Andrew Mason</u></span></div></DIV></DIV>
+<span style="position:absolute; left:970px; top:714px; width:60px; height:60px">
+<span id=ou41 style="position:absolute;left:0px;top:0px;width:60px;height:60px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u41.png',sizingMethod='scale');
+"><img style="width:60px; height:60px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u41.png" border="0" alt=""></span>
+</span>
+<IMG id=u41 src="Resources/transparent.gif" style="position:absolute; left:970px; top:714px; width:60px; height:60px"   >
+
+<DIV id=u42 style="position:absolute; left:970px; top:774px; width:60px; height:30px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u42_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><u>Andrew Mason</u></span></div></DIV></DIV>
+<DIV id=u43 style="position:absolute; left:800px; top:815px; width:260px; height:19px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u43_rtf><span style=" font-family:'Arial'; color:#000000; font-size:16px;"><b>These people also joined:</b></span></DIV></DIV>
+<DIV id=u44 style="position:absolute; left:800px; top:835px; width:130px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u44_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><u><i>Another Campaign</i></u></span></DIV></DIV>
+<DIV id=u45 style="position:absolute; left:800px; top:855px; width:130px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u45_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><u><i>Another Campaign</i></u></span></DIV></DIV>
+<DIV id=u46 style="position:absolute; left:800px; top:875px; width:130px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u46_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><u><i>Another Campaign</i></u></span></DIV></DIV>
+<DIV id=u47 style="; position:absolute; left:180px; top:230px; width:361px; height:351px;; overflow:hidden">
+<DIV id=pd0u47 style="position:absolute; left:0px; top:0px; width:1px; height:1px; ;">
+<DIV id=ou48 style="position:absolute; left:0px; top:0px; width:361px; height:351px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:369px; height:359px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u48.png',sizingMethod='scale');
+"><img style="width:369px; height:359px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u48.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u48container style="position:absolute; left:0px; top:0px; width:361px; height:351px;; overflow:visible;">
+
+<DIV id=u49 style="position:absolute; left:2px; top:167px; width:356px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u49_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u48 src="Resources/transparent.gif" style="position:absolute; left:0px; top:0px; width:360px; height:350px"  >
+
+<INPUT id=u50  type=submit value="Join!" style="position:absolute; left:285px; top:312px; width:65px; height:28px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u51 style="position:absolute; left:10px; top:9px; width:220px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u51_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>What the money will be used for:</b></span></DIV></DIV>
+<DIV id=u52 style="position:absolute; left:10px; top:29px; width:280px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u52_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">An indoor wiffleball tournament on March 17th</span></DIV></DIV>
+<DIV id=u53 style="position:absolute; left:10px; top:84px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u53_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>I will contribute:</b></span></DIV></DIV>
+<DIV id=u54 style="position:absolute; left:119px; top:107px; width:240px; height:28px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u54_rtf><span style=" font-family:'Arial'; color:#000000; font-size:11px;"><i>Your card will not be charged unless the above conditions are met</i></span></DIV></DIV>
+<INPUT id=u55  type=text value="$20" style="position:absolute; left:120px; top:80px; width:50px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u56 style="position:absolute; left:10px; top:48px; width:290px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u56_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Recipient</b>: Greg Norman&nbsp; <u>show address</u></span></DIV></DIV>
+<DIV id=u57 style="position:absolute; left:10px; top:138px; width:220px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u57_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Participate</b></span></DIV></DIV>
+<DIV id=u58container style="position:absolute; left:40px; top:162px; width:210px; height:16px; ; ; text-align: left " >
+<DIV id=u59 style="position:absolute; left:16px; top:0px; width:192px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u59_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Will attend</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:40px; top:162px; width:210px; height:16px; ; ; text-align: left " ><INPUT id=u58 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u60 style="position:absolute; left:40px; top:215px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u60_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">must raise $650</span></DIV></DIV>
+<DIV id=u61 style="position:absolute; left:10px; top:194px; width:340px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u61_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Nothing will happen unless these conditions are met</b></span></DIV></DIV>
+<DIV id=u62 style="position:absolute; left:40px; top:234px; width:240px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u62_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">between 8 and 12 people join</span></DIV></DIV>
+<DIV id=u63 style="position:absolute; left:40px; top:254px; width:240px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u63_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">we must find a field that will take us...</span></DIV></DIV>
+<DIV id=u64 style="position:absolute; left:10px; top:274px; width:340px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u64_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>This will cause the campaign to be called off</b></span></DIV></DIV>
+<DIV id=u65 style="position:absolute; left:40px; top:294px; width:230px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u65_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Mr. Nasty Alderman lifts the ban on baseball games at the wheelchair park</span></DIV></DIV>
+</DIV>
+<DIV id=pd1u47 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou66 style="position:absolute; left:-4px; top:-5px; width:361px; height:229px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:369px; height:237px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u66.png',sizingMethod='scale');
+"><img style="width:369px; height:237px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u66.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u66container style="position:absolute; left:-4px; top:-5px; width:361px; height:229px;; overflow:visible;">
+
+<DIV id=u67 style="position:absolute; left:2px; top:106px; width:356px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u67_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u66 src="Resources/transparent.gif" style="position:absolute; left:-4px; top:-5px; width:360px; height:228px"  >
+
+<INPUT id=u68  type=submit value="Invite some people" style="position:absolute; left:110px; top:186px; width:120px; height:28px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u69 style="position:absolute; left:10px; top:11px; width:340px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u69_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>You pledged to contribute $20,000 if the campaign conditions are met.</b></span></DIV></DIV>
+<DIV id=u70 style="position:absolute; left:80px; top:120px; width:210px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u70_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>You haven't invited anyone yet...</b></span></DIV></DIV>
+<DIV id=u71 style="position:absolute; left:20px; top:60px; width:260px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u71_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><u><b>Complete the questionnaire</b></u></span></DIV></DIV>
+<DIV id=u72 style="position:absolute; left:20px; top:80px; width:260px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u72_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><u><b>Edit your commitment to this campaign</b></u></span></DIV></DIV>
+<span style="position:absolute; left:-4px; top:50px; width:30px; height:30px">
+<span id=ou73 style="position:absolute;left:0px;top:0px;width:30px;height:30px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u73.png',sizingMethod='scale');
+"><img style="width:30px; height:30px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u73.png" border="0" alt=""></span>
+</span>
+<IMG id=u73 src="Resources/transparent.gif" style="position:absolute; left:-4px; top:50px; width:30px; height:30px"   >
+
+<span style="position:absolute; left:-4px; top:71px; width:30px; height:30px">
+<span id=ou74 style="position:absolute;left:0px;top:0px;width:30px;height:30px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u74.png',sizingMethod='scale');
+"><img style="width:30px; height:30px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u74.png" border="0" alt=""></span>
+</span>
+<IMG id=u74 src="Resources/transparent.gif" style="position:absolute; left:-4px; top:71px; width:30px; height:30px"   >
+
+<span style="position:absolute; left:64px; top:120px; width:16px; height:16px">
+<span id=ou75 style="position:absolute;left:0px;top:0px;width:16px;height:16px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u75.png',sizingMethod='scale');
+"><img style="width:16px; height:16px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u75.png" border="0" alt=""></span>
+</span>
+<IMG id=u75 src="Resources/transparent.gif" style="position:absolute; left:64px; top:120px; width:16px; height:16px"   >
+
+<DIV id=u76 style="position:absolute; left:60px; top:138px; width:230px; height:42px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u76_rtf><span style=" font-family:'Arial'; color:#000000; font-size:11px;"><i>Recruiting members builds your reputation on The Point and is an essential part of successful campaigns</i></span></DIV></DIV>
+</DIV>
+<DIV id=pd2u47 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou77 style="position:absolute; left:-9px; top:-12px; width:361px; height:229px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:369px; height:237px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u77.png',sizingMethod='scale');
+"><img style="width:369px; height:237px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u77.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u77container style="position:absolute; left:-9px; top:-12px; width:361px; height:229px;; overflow:visible;">
+
+<DIV id=u78 style="position:absolute; left:2px; top:106px; width:356px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u78_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u77 src="Resources/transparent.gif" style="position:absolute; left:-9px; top:-12px; width:360px; height:228px"  >
+
+<INPUT id=u79  type=submit value="Ratification Demo" style="position:absolute; left:225px; top:182px; width:120px; height:28px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u80 style="position:absolute; left:10px; top:11px; width:260px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u80_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>You are a member of this campaign</b></span></DIV></DIV>
+<DIV id=u81 style="position:absolute; left:10px; top:40px; width:270px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u81_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Invite Status</b></span></DIV></DIV>
+<DIV id=u82 style="position:absolute; left:10px; top:71px; width:110px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u82_rtf>&nbsp;</DIV></DIV>
+<DIV id=u83 style="position:absolute; left:10px; top:60px; width:270px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u83_rtf><span style=" font-family:'Arial'; color:#006600; font-size:13px;"><b>Accepted for +20</b></span></DIV></DIV>
+<DIV id=u84 style="position:absolute; left:10px; top:80px; width:150px; height:48px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u84_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Dave Collia<br>Superman<br>Alf</span></DIV></DIV>
+<DIV id=u85 style="position:absolute; left:10px; top:140px; width:270px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u85_rtf><span style=" font-family:'Arial'; color:#990000; font-size:13px;"><b>Declined</b></span></DIV></DIV>
+<DIV id=u86 style="position:absolute; left:10px; top:160px; width:150px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u86_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">James Hannon<br>Jason Hanton</span></DIV></DIV>
+<DIV id=u87 style="position:absolute; left:10px; top:194px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u87_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Awaiting Response</b></span></DIV></DIV>
+</DIV>
+<DIV id=pd3u47 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou88 style="position:absolute; left:0px; top:0px; width:361px; height:231px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:369px; height:239px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u88.png',sizingMethod='scale');
+"><img style="width:369px; height:239px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u88.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u88container style="position:absolute; left:0px; top:0px; width:361px; height:231px;; overflow:visible;">
+
+<DIV id=u89 style="position:absolute; left:2px; top:107px; width:356px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u89_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u88 src="Resources/transparent.gif" style="position:absolute; left:0px; top:0px; width:360px; height:230px"  >
+
+<span style="position:absolute; left:5px; top:5px; width:16px; height:16px">
+<span id=ou90 style="position:absolute;left:0px;top:0px;width:16px;height:16px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u90.png',sizingMethod='scale');
+"><img style="width:16px; height:16px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u90.png" border="0" alt=""></span>
+</span>
+<IMG id=u90 src="Resources/transparent.gif" style="position:absolute; left:5px; top:5px; width:16px; height:16px"   >
+
+<DIV id=u91 style="position:absolute; left:25px; top:5px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u91_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><u><b>Ratification Required</b></u></span></DIV></DIV>
+<DIV id=u92 style="position:absolute; left:5px; top:29px; width:345px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u92_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><u>Andrew</u> changed the campaign tipping point.&nbsp; You must review his changes.</span></DIV></DIV>
+<DIV id=u93 style="position:absolute; left:40px; top:71px; width:260px; height:29px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u93_rtf><span style=" font-family:'Arial'; color:#000000; font-size:24px;"><b>Old:&nbsp; $10,000,000,000</b></span></DIV></DIV>
+<DIV id=u94 style="position:absolute; left:80px; top:104px; width:150px; height:29px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u94_rtf><span style=" font-family:'Arial'; color:#000000; font-size:24px;"><b>New:&nbsp; None</b></span></DIV></DIV>
+<INPUT id=u95  type=submit value="Confirm" style="position:absolute; left:50px; top:175px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u96  type=submit value="Resign" style="position:absolute; left:160px; top:175px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+</DIV>
+</DIV>
+<DIV id=u97 style="; position:absolute; left:181px; top:590px; width:601px; height:821px;; overflow:hidden">
+<DIV id=pd0u97 style="position:absolute; left:0px; top:0px; width:1px; height:1px; ;">
+<DIV id=ou98 style="position:absolute; left:260px; top:0px; width:58px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:66px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u98.png',sizingMethod='scale');
+"><img style="width:66px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u98.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u98container style="position:absolute; left:260px; top:0px; width:58px; height:26px;; overflow:visible;">
+
+<DIV id=u99 style="position:absolute; left:2px; top:4.5px; width:53px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u99_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">HQ</span></div></DIV></DIV>
+</DIV>
+<IMG id=u98 src="Resources/transparent.gif" style="position:absolute; left:260px; top:0px; width:57px; height:25px"  >
+
+<DIV id=ou100 style="position:absolute; left:72px; top:0px; width:126px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:134px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u100.png',sizingMethod='scale');
+"><img style="width:134px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u100.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u100container style="position:absolute; left:72px; top:0px; width:126px; height:26px;; overflow:visible;">
+
+<DIV id=u101 style="position:absolute; left:2px; top:4.5px; width:121px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u101_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Detailed Explanation</span></div></DIV></DIV>
+</DIV>
+<IMG id=u100 src="Resources/transparent.gif" style="position:absolute; left:72px; top:0px; width:125px; height:25px"  >
+
+<DIV id=ou102 style="position:absolute; left:199px; top:0px; width:58px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:66px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u98.png',sizingMethod='scale');
+"><img style="width:66px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u98.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u102container style="position:absolute; left:199px; top:0px; width:58px; height:26px;; overflow:visible;">
+
+<DIV id=u103 style="position:absolute; left:2px; top:4.5px; width:53px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u103_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Share</span></div></DIV></DIV>
+</DIV>
+<IMG id=u102 src="Resources/transparent.gif" style="position:absolute; left:199px; top:0px; width:57px; height:25px"  >
+
+<DIV id=ou104 style="position:absolute; left:0px; top:25px; width:601px; height:156px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:609px; height:164px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u104.png',sizingMethod='scale');
+"><img style="width:609px; height:164px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u104.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u104container style="position:absolute; left:0px; top:25px; width:601px; height:156px;; overflow:visible;">
+
+<DIV id=u105 style="position:absolute; left:2px; top:69.5px; width:596px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u105_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u104 src="Resources/transparent.gif" style="position:absolute; left:0px; top:25px; width:600px; height:155px"  >
+
+<DIV id=ou106 style="position:absolute; left:0px; top:0.5px; width:71px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:79px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u106.png',sizingMethod='scale');
+"><img style="width:79px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u106.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u106container style="position:absolute; left:0px; top:0.5px; width:71px; height:26px;; overflow:visible;">
+
+<DIV id=u107 style="position:absolute; left:2px; top:4.5px; width:66px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u107_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Overview</span></div></DIV></DIV>
+</DIV>
+<IMG id=u106 src="Resources/transparent.gif" style="position:absolute; left:0px; top:0.5px; width:70px; height:25px"  >
+
+<DIV id=u108 style="position:absolute; left:10px; top:107px; width:600px; height:80px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u108_rtf><span style=" color:#000000; font-size:13px;"><b>Tags</b></span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">:<br>activism charity children coffee donuts Dunkin Donuts families food helping others homebound homeless homelessness&nbsp; hunger kids low income NCS Unon profitpovertyRaleigh&nbsp; seniors&nbsp; Wake County</span></DIV></DIV>
+<DIV id=u109 style="position:absolute; left:14px; top:32px; width:256px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u109_rtf><span style=" color:#000000; font-size:13px;"><b>Organizer:&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </b><u>Amber Mariott</u> (<u>contact</u>)</span></DIV></DIV>
+<span style="position:absolute; left:87px; top:30px; width:23px; height:30px">
+<IMG id=ou110 src="show-wiffleball_files/u110.jpg" style="position:absolute;left:0px;top:0px;width:23px;height:30px">
+</span>
+<IMG id=u110 src="Resources/transparent.gif" style="position:absolute; left:87px; top:30px; width:23px; height:30px"   >
+
+<DIV id=u111 style="position:absolute; left:14px; top:70px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u111_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Launched</b>: April 7, 2008</span></DIV></DIV>
+<span style="position:absolute; left:500px; top:36px; width:90px; height:69px">
+<span id=ou112 style="position:absolute;left:0px;top:0px;width:90px;height:69px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u112.png',sizingMethod='scale');
+"><img style="width:90px; height:69px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u112.png" border="0" alt=""></span>
+</span>
+<IMG id=u112 src="Resources/transparent.gif" style="position:absolute; left:500px; top:36px; width:90px; height:69px"   >
+
+<span style="position:absolute; left:380px; top:40px; width:100px; height:65px">
+<span id=ou113 style="position:absolute;left:0px;top:0px;width:100px;height:65px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u113.png',sizingMethod='scale');
+"><img style="width:100px; height:65px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u113.png" border="0" alt=""></span>
+</span>
+<IMG id=u113 src="Resources/transparent.gif" style="position:absolute; left:380px; top:40px; width:100px; height:65px"   >
+
+</DIV>
+<DIV id=pd1u97 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou114 style="position:absolute; left:0px; top:0px; width:66px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:74px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u114.png',sizingMethod='scale');
+"><img style="width:74px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u114.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u114container style="position:absolute; left:0px; top:0px; width:66px; height:26px;; overflow:visible;">
+
+<DIV id=u115 style="position:absolute; left:2px; top:4.5px; width:61px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u115_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Overview</span></div></DIV></DIV>
+</DIV>
+<IMG id=u114 src="Resources/transparent.gif" style="position:absolute; left:0px; top:0px; width:65px; height:25px"  >
+
+<DIV id=ou116 style="position:absolute; left:198px; top:0px; width:58px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:66px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u116.png',sizingMethod='scale');
+"><img style="width:66px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u116.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u116container style="position:absolute; left:198px; top:0px; width:58px; height:26px;; overflow:visible;">
+
+<DIV id=u117 style="position:absolute; left:2px; top:4.5px; width:53px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u117_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Share</span></div></DIV></DIV>
+</DIV>
+<IMG id=u116 src="Resources/transparent.gif" style="position:absolute; left:198px; top:0px; width:57px; height:25px"  >
+
+<DIV id=ou118 style="position:absolute; left:0px; top:25px; width:601px; height:816px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:609px; height:824px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u118.png',sizingMethod='scale');
+"><img style="width:609px; height:824px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u118.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u118container style="position:absolute; left:0px; top:25px; width:601px; height:816px;; overflow:visible;">
+
+<DIV id=u119 style="position:absolute; left:2px; top:399.5px; width:596px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u119_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u118 src="Resources/transparent.gif" style="position:absolute; left:0px; top:25px; width:600px; height:815px"  >
+
+<DIV id=u120 style="position:absolute; left:5px; top:60px; width:595px; height:784px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u120_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Why do we want a dome over Chicago?</b><br><br>To shield us from the cold and snow. The eradication of winter would allow our city to blossom to its full potential. The ability to use bikes as transportation year round would allow people to sell their cars and reduce traffic. We&rsquo;d be able to get more done in the winter, no longer trapped indoors. The possibilities are endless.<br><br><b>But I don&rsquo;t want to live in a dome in the summer!</b><br><br>Which is why the dome would be collapsable. In the spring, summer, and fall, the dome will collapse and Chicago would become a normal city. In this sense, the dome is a non-binding idea-if we collectively conclude that living in a dome is weirder than we anticipated, we can always leave it down in the winter too.<br><br><b>How do I get in and out of the dome?</b><br><br>The same way you get in and out of Chicago now. There will be holes all over the place, including airplane shaped holes in the sky.<br>How do you know that $10 billion will be enough?<br><br>We don&rsquo;t, really. The Moscow suburb dome is costing 1.6 billion pounds, so this seems like a safe estimate. Once we demonstrate sufficient demand (1 billion or so should do the trick), we&rsquo;ll see developers popping out of the woodwork with proposals for the project and we&rsquo;ll get a better sense of the actual cost.<br><br><b>What area will it cover?</b><br><br>We&rsquo;ll figure that out once things get rolling. Maybe all of Chicago, or maybe just downtown. Or maybe a suburb. Don&rsquo;t worry about that for now-you can always change or withdraw your pledge if the dome doesn&rsquo;t cover your house.<br>This is a joke, right?<br><br>No. Check this out-they&rsquo;re doing it in Moscow.<br>But isn&rsquo;t Chicago&rsquo;s winter a cultural icon?<br><br>And what would you call a dome if not a cultural icon? It&rsquo;s a swap, and the new icon won&rsquo;t make you depressed for a third of the year.<br><br><b>What else can you tell me that might convince me?</b><br><br>&nbsp; &nbsp; * Terrorism deterrent maybe<br>&nbsp; &nbsp; * Dome will protect against UV rays<br><br>If you want to abolish winter from Chicago, join this campaign. You have nothing to lose.<br><br>Remember, you will not spend a dime unless we raise 10 billion dollars, which will be more than enough to get the job done. There is no risk whatsoever in joining. Don&rsquo;t think about whether or not enough money will be raised, just think about what it would be worth to you to never again suffer a Chicago winter. Further, you can always withdraw your pledge if you get cold feet.</span></DIV></DIV>
+<DIV id=ou121 style="position:absolute; left:68px; top:0px; width:128px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:136px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u121.png',sizingMethod='scale');
+"><img style="width:136px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u121.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u121container style="position:absolute; left:68px; top:0px; width:128px; height:26px;; overflow:visible;">
+
+<DIV id=u122 style="position:absolute; left:2px; top:4.5px; width:123px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u122_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Detailed Explanation</span></div></DIV></DIV>
+</DIV>
+<IMG id=u121 src="Resources/transparent.gif" style="position:absolute; left:68px; top:0px; width:127px; height:25px"  >
+
+</DIV>
+<DIV id=pd2u97 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+</DIV>
+<DIV id=pd3u97 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou123 style="position:absolute; left:0px; top:1px; width:71px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:79px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u123.png',sizingMethod='scale');
+"><img style="width:79px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u123.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u123container style="position:absolute; left:0px; top:1px; width:71px; height:26px;; overflow:visible;">
+
+<DIV id=u124 style="position:absolute; left:2px; top:4.5px; width:66px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u124_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Overview</span></div></DIV></DIV>
+</DIV>
+<IMG id=u123 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1px; width:70px; height:25px"  >
+
+<DIV id=ou125 style="position:absolute; left:72px; top:1.5px; width:126px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:134px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u125.png',sizingMethod='scale');
+"><img style="width:134px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u125.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u125container style="position:absolute; left:72px; top:1.5px; width:126px; height:26px;; overflow:visible;">
+
+<DIV id=u126 style="position:absolute; left:2px; top:4.5px; width:121px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u126_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Detailed Explanation</span></div></DIV></DIV>
+</DIV>
+<IMG id=u125 src="Resources/transparent.gif" style="position:absolute; left:72px; top:1.5px; width:125px; height:25px"  >
+
+<DIV id=ou127 style="position:absolute; left:199px; top:1.5px; width:58px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:66px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u127.png',sizingMethod='scale');
+"><img style="width:66px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u127.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u127container style="position:absolute; left:199px; top:1.5px; width:58px; height:26px;; overflow:visible;">
+
+<DIV id=u128 style="position:absolute; left:2px; top:4.5px; width:53px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u128_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Share</span></div></DIV></DIV>
+</DIV>
+<IMG id=u127 src="Resources/transparent.gif" style="position:absolute; left:199px; top:1.5px; width:57px; height:25px"  >
+
+<DIV id=ou129 style="position:absolute; left:0px; top:25.5px; width:601px; height:576px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:609px; height:584px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u129.png',sizingMethod='scale');
+"><img style="width:609px; height:584px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u129.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u129container style="position:absolute; left:0px; top:25.5px; width:601px; height:576px;; overflow:visible;">
+
+<DIV id=u130 style="position:absolute; left:2px; top:279.5px; width:596px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u130_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u129 src="Resources/transparent.gif" style="position:absolute; left:0px; top:25.5px; width:600px; height:575px"  >
+
+<DIV id=u131 style="position:absolute; left:10px; top:40.5px; width:370px; height:29px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u131_rtf><span style=" font-family:'Arial'; color:#000000; font-size:24px;"><b>Organizer Headquarters</b></span></DIV></DIV>
+<DIV id=u132 style="position:absolute; left:50px; top:91.5px; width:260px; height:22px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u132_rtf><span style=" font-family:'Arial'; color:#000000; font-size:19px;"><b>Campaign Conditions</b></span></DIV></DIV>
+<DIV id=u133 style="position:absolute; left:50px; top:131.5px; width:320px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u133_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Before the campaign tips, this must happen:</b></span></DIV></DIV>
+<DIV id=u134 style="position:absolute; left:60px; top:204.5px; width:320px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u134_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">We must find a field that will take us&nbsp; &nbsp; <u>it happened!</u></span></DIV></DIV>
+<DIV id=u135 style="position:absolute; left:50px; top:234.5px; width:270px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u135_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>If this happens, it calls the campaign off</b></span></DIV></DIV>
+<DIV id=u136 style="position:absolute; left:60px; top:254.5px; width:320px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u136_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Mr. McNasty will do so and so&nbsp; &nbsp; <u>it happened!</u></span></DIV></DIV>
+<DIV id=u137 style="position:absolute; left:60px; top:155.5px; width:220px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u137_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">must raise $650&nbsp; </span><b><span style=" font-family:'Arial'; color:#990033; font-size:13px;">$350 so far</b></span></DIV></DIV>
+<DIV id=u138 style="position:absolute; left:60px; top:179.5px; width:330px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u138_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">between 8 and 12 people join&nbsp; </span><b><span style=" font-family:'Arial'; color:#009900; font-size:13px;">done! </b></span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">(9 people joined) </span></DIV></DIV>
+<DIV id=u139 style="position:absolute; left:390px; top:90.5px; width:210px; height:22px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u139_rtf><span style=" font-family:'Arial'; color:#000000; font-size:19px;"><b>Other stuff you can do</b></span></DIV></DIV>
+<DIV id=u140 style="position:absolute; left:400px; top:120.5px; width:150px; height:48px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u140_rtf><u><span style=" font-family:'Arial'; font-size:13px;">Close campaign<br>Declare Success<br>Declare Failure</span></u></DIV></DIV>
+<DIV id=u141 style="visibility:hidden; position:absolute; left:60px; top:130.5px; width:381px; height:201px;; overflow:hidden">
+<DIV id=pd0u141 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou142 style="position:absolute; left:0px; top:0px; width:381px; height:201px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:389px; height:209px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u142.png',sizingMethod='scale');
+"><img style="width:389px; height:209px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u142.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u142container style="position:absolute; left:0px; top:0px; width:381px; height:201px;; overflow:visible;">
+
+<DIV id=u143 style="position:absolute; left:2px; top:92px; width:376px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u143_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u142 src="Resources/transparent.gif" style="position:absolute; left:0px; top:0px; width:380px; height:200px"  >
+
+<INPUT id=u144  type=submit value="Declare Success!" style="position:absolute; left:50px; top:125px; width:110px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u145  type=submit value="Admit Failure!" style="position:absolute; left:200px; top:125px; width:110px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u146  type=submit value="Don't be so dramatic -- just close this thing!" style="position:absolute; left:50px; top:165px; width:260px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u147 style="position:absolute; left:60px; top:0px; width:280px; height:44px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u147_rtf><span style=" font-family:'Arial'; color:#000000; font-size:37px;"><b>it happened!</b></span></DIV></DIV>
+<DIV id=u148 style="position:absolute; left:60px; top:40px; width:230px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u148_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Mr. Nasty Alderman lifts the ban on baseball games at the wheelchair park</span></DIV></DIV>
+<DIV id=u149 style="position:absolute; left:50px; top:80px; width:200px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u149_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>This will close you campaign.&nbsp; Select one to continue:</b></span></DIV></DIV>
+</DIV>
+<DIV id=pd1u141 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou150 style="position:absolute; left:0px; top:0px; width:381px; height:201px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:389px; height:209px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u150.png',sizingMethod='scale');
+"><img style="width:389px; height:209px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u150.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u150container style="position:absolute; left:0px; top:0px; width:381px; height:201px;; overflow:visible;">
+
+<DIV id=u151 style="position:absolute; left:2px; top:92px; width:376px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u151_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u150 src="Resources/transparent.gif" style="position:absolute; left:0px; top:0px; width:380px; height:200px"  >
+
+<INPUT id=u152  type=submit value="CANCEL!" style="position:absolute; left:50px; top:155px; width:110px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u153  type=submit value="OK!" style="position:absolute; left:200px; top:155px; width:110px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u154 style="position:absolute; left:60px; top:0px; width:280px; height:44px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u154_rtf><span style=" font-family:'Arial'; color:#000000; font-size:37px;"><b>it happened!</b></span></DIV></DIV>
+<DIV id=u155 style="position:absolute; left:57px; top:70px; width:200px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u155_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>This must still happen for your campaign to tip:</b></span></DIV></DIV>
+<DIV id=u156 style="position:absolute; left:60px; top:44px; width:240px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u156_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">we must find a field that will take us...</span></DIV></DIV>
+<DIV id=u157 style="position:absolute; left:57px; top:110px; width:220px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u157_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">must raise $650&nbsp; </span><b><span style=" font-family:'Arial'; color:#990033; font-size:13px;">$350 so far</b></span></DIV></DIV>
+</DIV>
+</DIV>
+<DIV id=ou158 style="position:absolute; left:260px; top:1.5px; width:58px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:66px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u98.png',sizingMethod='scale');
+"><img style="width:66px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u98.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u158container style="position:absolute; left:260px; top:1.5px; width:58px; height:26px;; overflow:visible;">
+
+<DIV id=u159 style="position:absolute; left:2px; top:4.5px; width:53px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u159_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">HQ</span></div></DIV></DIV>
+</DIV>
+<IMG id=u158 src="Resources/transparent.gif" style="position:absolute; left:260px; top:1.5px; width:57px; height:25px"  >
+
+</DIV>
+</DIV>
+<INPUT id=u160  type=submit value="Add comment" style="position:absolute; left:810px; top:564px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<TEXTAREA id=u161  style="position:absolute; left:810px; top:489px; width:230px; height:65px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"  >Leave a comment on this campaign...</TEXTAREA>
+
+<span style="position:absolute; left:810px; top:484px; width:233px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u162.png',sizingMethod='scale');
+"><img style="width:233px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u162.png" border="0" alt=""></span>
+
+<IMG id=u162 src="Resources/transparent.gif" style="position:absolute; left:810px; top:483.5px; width:230px; height:2px">
+
+<DIV id=u163 style="position:absolute; left:920px; top:570px; width:60px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u163_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><u>SEE ALL</u></span></div></DIV></DIV>
+<span style="position:absolute; left:806px; top:170px; width:14px; height:10px">
+<span id=ou164 style="position:absolute;left:0px;top:0px;width:14px;height:10px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u164.png',sizingMethod='scale');
+"><img style="width:14px; height:10px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u164.png" border="0" alt=""></span>
+</span>
+<IMG id=u164 src="Resources/transparent.gif" style="position:absolute; left:806px; top:170px; width:14px; height:10px"   >
+
+<span style="position:absolute; left:807px; top:302px; width:14px; height:10px">
+<span id=ou165 style="position:absolute;left:0px;top:0px;width:14px;height:10px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u165.png',sizingMethod='scale');
+"><img style="width:14px; height:10px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u165.png" border="0" alt=""></span>
+</span>
+<IMG id=u165 src="Resources/transparent.gif" style="position:absolute; left:807px; top:302px; width:14px; height:10px"   >
+
+<span style="position:absolute; left:806px; top:600px; width:14px; height:10px">
+<span id=ou166 style="position:absolute;left:0px;top:0px;width:14px;height:10px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u166.png',sizingMethod='scale');
+"><img style="width:14px; height:10px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u166.png" border="0" alt=""></span>
+</span>
+<IMG id=u166 src="Resources/transparent.gif" style="position:absolute; left:806px; top:600px; width:14px; height:10px"   >
+
+<DIV id=u167 style="position:absolute; left:280px; top:166px; width:150px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u167_rtf><span style=" font-family:'Arial'; color:#000000; font-size:21px;"><i>Pledged: $250</i></span></DIV></DIV>
+<DIV id=u168 style="position:absolute; left:430px; top:168px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u168_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><i>$350 needed</i></span></DIV></DIV>
+<DIV id=u169 style="position:absolute; left:646px; top:168px; width:164px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u169_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><i>between 8 and 12 needed</i></span></DIV></DIV>
+<span style="position:absolute; left:180px; top:140px; width:81px; height:70px">
+<span id=ou170 style="position:absolute;left:0px;top:0px;width:81px;height:70px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='show-wiffleball_files/u170.png',sizingMethod='scale');
+"><img style="width:81px; height:70px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="show-wiffleball_files/u170.png" border="0" alt=""></span>
+</span>
+<IMG id=u170 src="Resources/transparent.gif" style="position:absolute; left:180px; top:140px; width:81px; height:70px"   >
+
+<DIV id=u171 style="position:absolute; left:550px; top:256px; width:240px; height:208px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u171_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Many of you know that the alderman has passed an ordinance banning baseball in Bucktown. Why?&nbsp; Because he hates the Mariners.&nbsp; But we found a loophole in his little plan... he doesn't say anything about <b>wiffleball</b>.<br><br>We're going to try and raise money to rent out the wheelchair park -- it costs $600 for a night, plus an extra $50 for drinks and stuff.<br><br>This will show them!</span></DIV></DIV>
+<DIV id=u172 style="position:absolute; left:550px; top:230px; width:200px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u172_rtf><span style=" font-family:'Arial'; color:#000000; font-size:21px;"><b>The Pitch</b></span></DIV></DIV>
+<DIV id=u173 style="position:absolute; left:550px; top:470px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u173_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><u><b>READ MORE...</b></u></span></DIV></DIV><SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="show-wiffleball_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>
